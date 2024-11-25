@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact - Heavenly Treats - Contact</title>
+        <link rel="stylesheet" href="style-contact.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container">
+                <div id="logo">
+                    <img src="Images/heavenly_treats_logo.png" alt="Heavenly Treats">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="body-container">
+            <div class="form-container">
+                <h1>Send a message</h1>
+                <form>
+                    <div class="form-row">
+                        <div class="column">
+                            <label for="first-name">First Name <span>(required)</span></label>
+                            <input type="text" id="first-name" name="first-name" required>
+                        </div>
+                        <div class="column">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name">
+                        </div>
+                    </div><br>
+                    <label for="email">Email <span>(required)</span></label>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="phone">Phone Number <span>(required)</span></label>
+                    <input type="tel" id="phone" name="phone" required><br>
+                    <label for="reason">Reason for contacting <span>(required)</span></label>
+                    <select id="reason" name="reason" required>
+                        <option value="general">General Inquiry</option>
+                        <option value="order">Order Inquiry</option>
+                        <option value="job">Job Inquiry</option>
+                    </select><br>
+                    <label for="message">Message <span>(required)</span></label>
+                    <textarea id="message" name="message" rows="5" required></textarea><br>
+                    <div class="file-upload">
+                        <input type="file" id="file-upload" name="file-upload">
+                        <span>+</span>
+                        <span>Add a File</span>
+                    </div>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+
+
+        <footer>
+            <div class="footer-container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>Heavenly Treats</h4>
+                        <a href="https://www.google.com/maps/place/48+Resolute+Crescent,+Whitby,+ON+L1P+1G2/@43.8829136,-78.9636683,17z/data=!3m1!4b1!4m6!3m5!1s0x89d51e3872495ec7:0x5f035021755facd8!8m2!3d43.8829136!4d-78.9610934!16s%2Fg%2F11c4k6m798!5m1!1e1?authuser=0&entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+                            <p>
+                                48 Resolute Crescent, Whitby<br>
+                                ON L1P 1G2<br>
+                            </a>
+                                (905)430-4310
+                            </p>
+                        
+                    </div>
+                    <div class="footer-col">
+                        <h4>Hours</h4>
+                        <p>
+                            Tuesday to Saturday 9am - 5pm<br>
+                            Sunday 9am - 4pm<br>
+                            Monday CLOSED
+                        </p>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Newsletter</h4>
+                        <form>
+                            <input type="text" placeholder="Your Name" class="inputName">
+                            <input type="email" placeholder="Enter Email" class="inputEmail">
+                            <input type="submit" value="Submit" class="inputSubmit">
+                        </form>
+                    </div>
+                </div>
+                <hr>
+                <div class="row-2">
+                    <div class="col">
+                        <p>&#169; 2019 Heavenly Treats. All Rights Reserved. Patricia Anne Usal - 301159080</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        
+
+
+    </body>
+</html>

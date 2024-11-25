@@ -1,0 +1,44 @@
+.about-container {
+    position: relative;
+    text-align: center;
+}
+
+.about-image img{
+    width: 100%;
+    opacity: .5;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    overflow: hidden;
+}
+
+.about-section {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    background-color: rgba(235, 220, 200, .6);
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    font-size: 150%;
+    line-height: 150%;
+    width: 95%;
+}
+
+.about-section p {
+    padding: 0 150px;
+}
+
+.sustainable {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    font-size: 150%;
+    line-height: 150%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0, -50%);
+}
